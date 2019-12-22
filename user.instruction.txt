@@ -1,0 +1,15 @@
+
+    //Please download the starter templte from the menu in starters
+    //make following change in app.js for your newly created files
+    
+    
+     //const  userRouter = require("./routes/user.route");
+
+      and
+
+     // app.use("/api/user", userRouter);
+      // run npm i 
+     // run npm start 
+
+     //your api is up on http://localhost:3332/api
+    
