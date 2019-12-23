@@ -20,7 +20,7 @@ const GetOneById = async (req, res) => {
 const GetOneByUserId = async (req, res) => {
   try {
     const accounts = await ACCOUNT.find({ userId: req.uid });
-    return res.send(accounts.map(a => _.pick(account, ["name", "token"])));
+    return res.send(accounts.map(a => _.pick(a, ["name", "access_token"])));
   } catch (error) {
     return res.status(400).send(error.message);
   }
@@ -54,10 +54,11 @@ const Create = async (req, res) => {
       userId,
       refresh_token: token.refresh_token,
       access_token: token.access_token,
+      token: token,
       name
     };
     const accountdb = await ACCOUNT.create({ ...account });
-    return res.send(_.pick(accountdb, ["name", "token"]));
+    return res.send(_.pick(accountdb, ["name", "access_token"]));
   } catch (error) {
     return res.status(400).send(error.message);
   }

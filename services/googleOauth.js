@@ -10,7 +10,7 @@ const devRedirect = "http://localhost:3000/redirect";
 const oauth2Client = new google.auth.OAuth2(
   client_Id,
   clientSecret,
-  devRedirect
+  prodRedirect
 );
 const scopes = ["https://www.googleapis.com/auth/analytics.readonly"];
 

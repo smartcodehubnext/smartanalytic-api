@@ -10,6 +10,7 @@ const accountSchema = new mongoose.Schema({
   refresh_token: {
     type: "String"
   },
+  token: { type: "Mixed" },
   access_token: { type: "String" },
   createdOn: {
     type: "Date",

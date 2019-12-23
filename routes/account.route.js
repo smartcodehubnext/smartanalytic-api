@@ -19,7 +19,9 @@ const authMiddleware = (req, res, next) => {
   if (!payLoad) return res.status(401).send("UnAuthorized");
   next();
 };
-router.route("/GetByUser").get(accountController.GetOneByUserId);
+router
+  .route("/GetByUser")
+  .get(authMiddleware, accountController.GetOneByUserId);
 
 router
   .route("/")
