@@ -6,7 +6,7 @@ const userController = require("../controllers/user.controller");
 const router = express.Router();
 
 router.route("/GetAuthUrl").get(userController.GetAuthUrl);
-router.route("/GetRefreshToken").post(userController.GetRefreshToken);
+
 router.route("/VerifyEmail").post(userController.VerifyEmail);
 router.route("/ResendEmail").post(userController.ResendEmail);
 

@@ -1,4 +1,6 @@
 const ACCOUNT = require("../schemas/account.schema");
+const GoogleService = require("../services/googleOauth");
+const _ = require("lodash");
 
 const GetAll = async (req, res) => {
   try {
@@ -11,6 +13,14 @@ const GetAll = async (req, res) => {
 const GetOneById = async (req, res) => {
   try {
     return res.send(await ACCOUNT.findById(req.params.id));
+  } catch (error) {
+    return res.status(400).send(error.message);
+  }
+};
+const GetOneByUserId = async (req, res) => {
+  try {
+    const accounts = await ACCOUNT.find({ userId: req.uid });
+    return res.send(accounts.map(a => _.pick(account, ["name", "token"])));
   } catch (error) {
     return res.status(400).send(error.message);
   }
@@ -35,9 +45,19 @@ const Delete = async (req, res) => {
 };
 const Create = async (req, res) => {
   try {
-    let Obj = { ...req.body };
+    let name = req.body.name;
+    let userId = req.uid;
 
-    return res.send(await ACCOUNT.create({ ...Obj }));
+    var code = req.body.code;
+    token = await GoogleService.GetRefreshToken(code);
+    let account = {
+      userId,
+      refresh_token: token.refresh_token,
+      access_token: token.access_token,
+      name
+    };
+    const accountdb = await ACCOUNT.create({ ...account });
+    return res.send(_.pick(accountdb, ["name", "token"]));
   } catch (error) {
     return res.status(400).send(error.message);
   }
@@ -45,6 +65,7 @@ const Create = async (req, res) => {
 module.exports = {
   GetAll,
   GetOneById,
+  GetOneByUserId,
   UpdateById,
   Delete,
   Create

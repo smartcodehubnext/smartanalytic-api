@@ -1,4 +1,5 @@
 const USER = require("../schemas/user.schema");
+const ACCOUNT = require("../schemas/account.schema");
 
 const { sign } = require("jsonwebtoken");
 const { pick } = require("lodash");
@@ -29,7 +30,7 @@ const Authenticate = async (req, res) => {
   if (!result) return res.status(400).send({ message: "Wrong password" });
 
   const payload = {
-    ...pick(user, ["name", "email", "emailConfirmed"])
+    ...pick(user, ["name", "email", "emailConfirmed", "_id"])
   };
 
   const token = sign(payload, ENV_SECRET_STRING);
@@ -103,7 +104,17 @@ const GetAuthUrl = async (req, res) => {
     return res.status(400).send(error.message);
   }
 };
-const GetRefreshToken = async (req, res) => {
+const SaveAccount = async (req, res) => {
+  try {
+    var code = req.body.code;
+    token = await GoogleService.GetRefreshToken(code);
+
+    res.send({ url: url });
+  } catch (error) {
+    return res.status(400).send(error.message);
+  }
+};
+const FetchAccounts = async (req, res) => {
   try {
     var code = req.body.code;
     token = await GoogleService.GetRefreshToken(code);
@@ -165,7 +176,8 @@ module.exports = {
   Delete,
   Create,
   GetAuthUrl,
-  GetRefreshToken,
+  SaveAccount,
+  FetchAccounts,
   VerifyEmail,
   ResendEmail
 };
