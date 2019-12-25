@@ -155,7 +155,7 @@ const SendConfirmationEmail = async ({ _id, email }) => {
   console.log(_id, email);
 
   const sgMail = require("@sendgrid/mail");
-  const url = `https://www.smartanalytics.tech/verify-email/?code=${_id}`;
+  const url = `https://launchpad.smartanalytics.tech/verify-email/?code=${_id}`;
   sgMail.setApiKey(
     "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"
   );

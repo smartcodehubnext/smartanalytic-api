@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 
-const accountController = require("../controllers/account.controller");
+const analyticAccountController = require("../controllers/analyticAccount.controller");
 const router = express.Router();
 
 const { verify } = require("jsonwebtoken");
@@ -10,6 +10,7 @@ const ENV_SECRET_STRING = "SmartAnalytic";
 
 const authMiddleware = (req, res, next) => {
   const token = req.header("authorization");
+  console.log(token);
 
   if (!token) return res.status(401).send("UnAuthorized");
   const payLoad = verify(token, ENV_SECRET_STRING);
@@ -20,17 +21,16 @@ const authMiddleware = (req, res, next) => {
 };
 router
   .route("/GetByUser")
-  .get(authMiddleware, accountController.GetOneByUserId);
-
+  .get(authMiddleware, analyticAccountController.GetOneByUserId);
 router
-  .route("/")
-  .get(authMiddleware, accountController.GetAll)
-  .post(authMiddleware, accountController.Create);
+  .route("/fetchAccounts/:accountId")
+  .get(authMiddleware, analyticAccountController.FetchAnalyticAccounts);
+
+router.route("/").get(authMiddleware, analyticAccountController.GetAll);
 
 router
   .route("/:id")
-  .get(authMiddleware, accountController.GetOneById)
-  .put(authMiddleware, accountController.UpdateById)
-  .delete(authMiddleware, accountController.Delete);
+  .get(authMiddleware, analyticAccountController.GetOneById)
+  .delete(authMiddleware, analyticAccountController.Delete);
 
 module.exports = router;

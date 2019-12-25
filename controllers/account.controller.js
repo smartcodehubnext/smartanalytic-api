@@ -1,5 +1,7 @@
 const ACCOUNT = require("../schemas/account.schema");
 const GoogleService = require("../services/googleOauth");
+const analyticService = require("../services/googleAccountService");
+
 const _ = require("lodash");
 
 const GetAll = async (req, res) => {
@@ -20,7 +22,7 @@ const GetOneById = async (req, res) => {
 const GetOneByUserId = async (req, res) => {
   try {
     const accounts = await ACCOUNT.find({ userId: req.uid });
-    return res.send(accounts.map(a => _.pick(a, ["name", "access_token"])));
+    return res.send(accounts.map(a => _.pick(a, ["name", "_id"])));
   } catch (error) {
     return res.status(400).send(error.message);
   }
@@ -58,7 +60,10 @@ const Create = async (req, res) => {
       name
     };
     const accountdb = await ACCOUNT.create({ ...account });
-    return res.send(_.pick(accountdb, ["name", "access_token"]));
+    if (accountdb._id) {
+      analyticService.initialFetchAccounts(accountdb._id, userId);
+    }
+    return res.send(_.pick(accountdb, ["name", "_id"]));
   } catch (error) {
     return res.status(400).send(error.message);
   }
