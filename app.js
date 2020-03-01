@@ -28,7 +28,7 @@ app.use("/api/user", userRouter);
 app.use("/api/account", accountRouter);
 app.use("/api/analyticAccount", analyticAccountRouter);
 
-const port = process.env.port || 3332;
+const port = process.env.port || 3331;
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
 });

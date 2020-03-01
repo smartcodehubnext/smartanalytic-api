@@ -90,7 +90,8 @@ const Create = async (req, res) => {
     //hash password end
     return res.send({
       Message: "User Created Redirect to login",
-      email: user.email
+      email: user.email,
+      _id:user._id
     });
   } catch (error) {
     return res.status(400).send(error.message);
@@ -157,7 +158,7 @@ const SendConfirmationEmail = async ({ _id, email }) => {
   const sgMail = require("@sendgrid/mail");
   const url = `https://launchpad.smartanalytics.tech/verify-email/?code=${_id}`;
   sgMail.setApiKey(
-    "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"
+    "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"
   );
   const msg = {
     to: email,
