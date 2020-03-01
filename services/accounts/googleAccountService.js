@@ -1,5 +1,5 @@
-const ANALYTICACCOUNT = require("../schemas/analyticAccount.schema");
-const ACCOUNT = require("../schemas/account.schema");
+const ANALYTICACCOUNT = require("../../schemas/analyticAccount.schema");
+const ACCOUNT = require("../../schemas/account.schema");
 const axios = require("axios");
 
 async function initialFetchAccounts(

@@ -41,6 +41,8 @@ const GetNewTokenFromRefreshToken = async accountId => {
     await ACCOUNT.findByIdAndUpdate(accountId, account);
     return true;
   } catch (error) {
+    console.log(error);
+    
     return false;
   }
 };

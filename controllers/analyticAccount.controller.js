@@ -1,8 +1,8 @@
 const ANALYTICACCOUNT = require("../schemas/analyticAccount.schema");
 
-const analyticService = require("../services/googleAccountService");
+const analyticService = require("../services/accounts/googleAccountService");
 const oauthService = require("../services/googleOauth");
-
+const { fetchAnalyticdata } = require( "../services/accounts/fetchanalyticData");
 const _ = require("lodash");
 
 const GetAll = async (req, res) => {
@@ -61,9 +61,34 @@ const FetchAnalyticAccounts = async (req, res) => {
     return res.status(400).send("Something Went Wrong", error);
   }
 };
+const FetchAnalyticdata = async (req, res) => {
+  try {
+  
+    
+    const userId = req.uid;
+    const viewId = req.params.viewId;
+    const accountId = req.params.accountId;
+
+    const accounts = await ANALYTICACCOUNT.find({
+      userId: userId,
+      accountId: accountId
+    });
+
+    console.log('viewId',viewId);
+    
+    const {data} =await fetchAnalyticdata(viewId,accountId);
+
+    
+    return res.send(data);
+  } catch (error) {
+  
+
+    return res.status(400).send({message:"Something Went Wrong", error});
+  }
+};
 module.exports = {
   GetAll,
-  GetOneById,
+  GetOneById,FetchAnalyticdata,
   GetOneByUserId,
   UpdateById,
   Delete,

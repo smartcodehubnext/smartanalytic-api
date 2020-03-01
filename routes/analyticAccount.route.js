@@ -33,4 +33,10 @@ router
   .get(authMiddleware, analyticAccountController.GetOneById)
   .delete(authMiddleware, analyticAccountController.Delete);
 
+
+  router
+  .route("/fetchAnalyticdata/:viewId/:accountId")
+  .get(authMiddleware, analyticAccountController.FetchAnalyticdata)
+  
+
 module.exports = router;

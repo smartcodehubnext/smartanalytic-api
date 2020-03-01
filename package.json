@@ -7,7 +7,6 @@
     "build": "rm -rf dist && webpack --mode development",
     "start": "node ./dist/smartanalyticapi.js",
     "deploy": "pm2 restart all",
-
     "dev": "nodemon app.js"
   },
   "author": "",
@@ -21,6 +20,7 @@
     "googleapis": "^46.0.0",
     "jsonwebtoken": "8.5.1",
     "lodash": "4.17.15",
+    "moment": "^2.24.0",
     "mongoose": "^5.7.3",
     "multer": "1.4.2",
     "nodemon": "1.19.1",

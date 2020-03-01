@@ -1,6 +1,6 @@
 const ACCOUNT = require("../schemas/account.schema");
 const GoogleService = require("../services/googleOauth");
-const analyticService = require("../services/googleAccountService");
+const analyticService = require("../services/accounts/googleAccountService");
 
 const _ = require("lodash");
 
@@ -52,6 +52,8 @@ const Create = async (req, res) => {
 
     var code = req.body.code;
     token = await GoogleService.GetRefreshToken(code);
+    console.log('token',token);
+    
     let account = {
       userId,
       refresh_token: token.refresh_token,
