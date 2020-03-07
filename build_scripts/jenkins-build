@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Handles all build steps on the jenkins instance
+# all jenkins should do is call this file.
+# NOTE: this script expects to be called from the root of the project, NOT from the build_scripts folder
+
+set -e
+OUR_DIR=$(cd "$(dirname ${0:-})"; pwd)
+npm install
+npm run build
+pm2 start ecosystem.config.js
