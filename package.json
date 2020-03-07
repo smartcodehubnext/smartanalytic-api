@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dist && webpack --mode development",
     "start": "node ./dist/smartanalyticapi.js",
-    "deploy": "pm2 restart all",
+    "deploy": "pm2 start dist/smartanalyticapi.js --watch --name smart-analytic-api",
     "dev": "nodemon app.js"
   },
   "author": "",
