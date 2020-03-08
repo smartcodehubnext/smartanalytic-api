@@ -5,7 +5,12 @@
 # NOTE: this script expects to be called from the root of the project, NOT from the build_scripts folder
 
 set -e
-OUR_DIR=$(cd "$(dirname ${0:-})"; pwd)
+
+npm run clean
+echo ':: Installing  Now'
+
 npm install
+echo ':: Building  Now'
 npm run build
-npm run deploy
+npm run deploy 
+cp -r /home/neeraj/Projects/smartanalytic-api/dist  /home/neeraj/Deployment-production/smartanalytic-api

@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && webpack --mode development",
-    "start": "node ./dist/smartanalyticapi.js",
-    "deploy": "pm2 start dist/smartanalyticapi.js --watch --name smart-analytic-api",
+    "start": "ng s",
+    "build": "ng build --prod  ",
+    "jbuild": "bash ./build_scripts/jenkins-build",
+    "clean": "rm -rf node_modules/ package-lock.json ",
+    "jenkins-artifact": "bash ./build_scripts/jenkins-artifact",
+    "deploy": "pm2 restart ecosystem.config.js",
+    "test": "jest",
     "dev": "nodemon app.js"
   },
   "author": "",
