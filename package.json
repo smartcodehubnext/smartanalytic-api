@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ng s",
-    "build": "ng build --prod  ",
+    "build": "rm -rf dist && webpack --mode development",
+    "start": "node ./dist/smartanalyticapi.js",
     "jbuild": "bash ./build_scripts/jenkins-build",
     "clean": "rm -rf node_modules/ package-lock.json ",
     "jenkins-artifact": "bash ./build_scripts/jenkins-artifact",
