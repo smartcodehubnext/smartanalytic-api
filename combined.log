@@ -2695,3 +2695,2049 @@ Listening at http://localhost:3331/api
 (node:625) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
 Listening at http://localhost:3331/api
 (node:625) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:639) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:639) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:674) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:674) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:689) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:703) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:703) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:750) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:750) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:764) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:764) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:778) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:778) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:797) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:797) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:811) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:811) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:828) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:828) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:843) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:843) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:902) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:902) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:916) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:916) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:932) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+Error: Cannot find module 'cors'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22cors%22?:1:18)
+    at Object.cors (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:272:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:11:14)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:87:10)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module 'express'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22express%22?:1:18)
+    at Object.express (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:283:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./app.js?:5:17)
+    at Object../app.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:96:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:84:18 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/lib/binding/bcrypt_lib.node'
+Require stack:
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js
+- /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:61:29)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Module.require (internal/modules/cjs/loader.js:1043:19)
+    at Module.Hook._require.Module.require (/usr/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:80:39)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at eval (webpack:///external_%22bcrypt%22?:1:18)
+    at Object.bcrypt (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:261:1)
+    at __webpack_require__ (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:20:30)
+    at eval (webpack:///./controllers/user.controller.js?:15:16)
+    at Object../controllers/user.controller.js (/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js:129:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/node_modules/bcrypt/bcrypt.js',
+    '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+  ]
+}
+(node:2400) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2400) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:863:27)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:863:27)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:863:27)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:863:27)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Error: Cannot find module '/home/neeraj/Projects/smart2.0/smartanalytic-api/dist/smartanalyticapi.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:981:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:863:27)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:1157:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)
+    at Module.load (internal/modules/cjs/loader.js:1001:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:900:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+(node:2637) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2637) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2653) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2653) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2672) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2672) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2694) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2708) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2708) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2723) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2723) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2746) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2746) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2767) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2767) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2781) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2781) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2801) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2801) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2817) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2817) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2835) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2835) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2851) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2851) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2866) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2866) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2884) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2884) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2900) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2900) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2931) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2931) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2961) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2961) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2981) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2981) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:2996) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:2996) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3014) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3014) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3044) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3044) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3074) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3074) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3115) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3115) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3155) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3155) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3172) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3172) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3199) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3199) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3218) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3218) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3233) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3233) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3251) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3251) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3265) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3265) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3285) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3285) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3312) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3312) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3340) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3356) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3372) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3372) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3386) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3386) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3400) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3400) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3415) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3415) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3429) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3429) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3444) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3444) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3459) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3459) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3490) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3490) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3524) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3549) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3549) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3575) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3575) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3610) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3610) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3664) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3664) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3678) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3678) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3692) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3692) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3715) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3715) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3730) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3730) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3757) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3757) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:3772) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Listening at http://localhost:3331/api
+(node:3772) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
