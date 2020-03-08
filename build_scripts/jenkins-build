@@ -12,5 +12,8 @@ echo ':: Installing  Now'
 npm install
 echo ':: Building  Now'
 npm run build
-npm run deploy 
+cp -r /home/neeraj/Projects/smart2.0/smartanalytic-api/ecosystem.config.js  /home/neeraj/Projects/smart2.0/smartanalytic-api/dist/ecosystem.config.js
+
 cp -r /home/neeraj/Projects/smart2.0/smartanalytic-api/dist  /home/neeraj/Deployment-production/Smartanalytics/smartanalytic-api
+cd /home/neeraj/Deployment-production/Smartanalytics/smartanalytic-api/dist
+pm2 start ecosystem.config.js
