@@ -13,4 +13,4 @@ npm install
 echo ':: Building  Now'
 npm run build
 npm run deploy 
-cp -r /home/neeraj/Projects/smartanalytic-api/dist  /home/neeraj/Deployment-production/smartanalytic-api
+cp -r /home/neeraj/Projects/smart2.0/smartanalytic-api/dist  /home/neeraj/Deployment-production/smartanalytic-api
