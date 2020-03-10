@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api", (req, res) => {
-  res.send({ message: "Welcome to Smart analytics api.." });
+  res.send({ message: "Welcome to Smart analytics api.. Actions" });
 });
 app.get("/images/*", (req, res) => {
   res.sendFile(path.join(__dirname, req.path));
