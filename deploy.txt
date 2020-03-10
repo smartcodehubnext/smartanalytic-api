@@ -4,6 +4,9 @@ sudo nano api.smartanalytics.tech.confg
  sudo ln -s /etc/nginx/sites-available/api.smartanalytics.tech.confg /etc/nginx/sites-enabled/api.smartanalytics.tech.confg
 sudo service nginx restart
 
+
+
+
 server {
   server_name api.smartanalytics.tech;
   listen 80;
