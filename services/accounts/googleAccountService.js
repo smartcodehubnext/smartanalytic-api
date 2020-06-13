@@ -14,13 +14,13 @@ async function initialFetchAccounts(
       analyticsAccountsresponse.data.items &&
       analyticsAccountsresponse.data.items.length
     ) {
-      accounts = analyticsAccountsresponse.data.items.map(a => {
+      accounts = analyticsAccountsresponse.data.items.map((a) => {
         a.userId = userId;
         a.accountId = accountId;
         return a;
       });
       await ANALYTICACCOUNT.insertMany(accounts, {
-        ordered: false
+        ordered: false,
       });
       return true;
     }
@@ -50,9 +50,10 @@ async function fetchAccounts(accountId) {
       headers: { Authorization: `Bearer ${accounts.access_token}` },
       params: {
         "max-results": 1000,
-        "start-index": 1
+        "start-index": 1,
       },
-      url: "https://www.googleapis.com/analytics/v3/management/accountSummaries"
+      url:
+        "https://www.googleapis.com/analytics/v3/management/accountSummaries",
     });
   } catch (error) {
     return error;
@@ -68,5 +69,5 @@ async function GetAccounts(uid) {
 module.exports = {
   fetchAccounts,
   initialFetchAccounts,
-  GetAccounts
+  GetAccounts,
 };

@@ -18,23 +18,23 @@ const scopes = ["https://www.googleapis.com/auth/analytics.readonly"];
 const GetAuthUrl = () => {
   return oauth2Client.generateAuthUrl({
     access_type: "offline",
-    scope: scopes
+    scope: scopes,
   });
 };
 
-const GetRefreshToken = async code => {
+const GetRefreshToken = async (code) => {
   console.log(code);
 
   const { tokens } = await oauth2Client.getToken(code);
   return tokens;
 };
 
-const GetNewTokenFromRefreshToken = async accountId => {
+const GetNewTokenFromRefreshToken = async (accountId) => {
   //get account and refreshtoken of the user
   try {
     const account = await ACCOUNT.findById(accountId);
     oauth2Client.setCredentials({
-      refresh_token: account.refresh_token
+      refresh_token: account.refresh_token,
     });
     const { token } = await oauth2Client.getAccessToken();
     account.access_token = token;
@@ -42,7 +42,7 @@ const GetNewTokenFromRefreshToken = async accountId => {
     return true;
   } catch (error) {
     console.log(error);
-    
+
     return false;
   }
 };
